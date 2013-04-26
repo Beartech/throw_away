@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  item: MyString
+  thrower: 
+  garbage_can: 
+
+two:
+  item: MyString
+  thrower: 
+  garbage_can: 

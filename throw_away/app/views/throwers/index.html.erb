@@ -1,0 +1,23 @@
+<h1>Listing throwers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @throwers.each do |thrower| %>
+  <tr>
+    <td><%= thrower.name %></td>
+    <td><%= link_to 'Show', thrower %></td>
+    <td><%= link_to 'Edit', edit_thrower_path(thrower) %></td>
+    <td><%= link_to 'Destroy', thrower, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Thrower', new_thrower_path %>

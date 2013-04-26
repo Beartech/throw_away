@@ -1,0 +1,2 @@
+module ThrowersHelper
+end

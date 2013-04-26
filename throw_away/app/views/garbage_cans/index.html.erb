@@ -1,0 +1,23 @@
+<h1>Listing garbage_cans</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @garbage_cans.each do |garbage_can| %>
+  <tr>
+    <td><%= garbage_can.name %></td>
+    <td><%= link_to 'Show', garbage_can %></td>
+    <td><%= link_to 'Edit', edit_garbage_can_path(garbage_can) %></td>
+    <td><%= link_to 'Destroy', garbage_can, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Garbage can', new_garbage_can_path %>
