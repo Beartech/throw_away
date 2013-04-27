@@ -3,8 +3,8 @@
 <table>
   <tr>
     <th>Item</th>
-    <th>Thrower</th>
-    <th>Garbage can</th>
+    <th><%= link_to 'Thrower', throwers_path %></th>
+    <th><%= link_to 'Garbage Can', garbage_cans_path %></th>
     <th></th>
     <th></th>
     <th></th>
@@ -21,8 +21,6 @@
   </tr>
 <% end %>
 </table>
-
-<br />
 
 <%= link_to 'New Garbage', new_garbage_path %>
 <br />

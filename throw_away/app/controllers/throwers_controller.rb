@@ -80,4 +80,8 @@ class ThrowersController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def report
+    @throwers = Thrower.all
+  end
 end

@@ -17,6 +17,31 @@
   </tr>
 <% end %>
 </table>
+<div id="chart"></div>
+
+<%=raw Seer::visualize(
+            @garbage_cans,
+            :as => :gauge,
+            :in_element => 'chart',
+            :series => {
+                    :series_label => 'name',
+                    :data_method => 'quantity'
+            },
+            :chart_options => {
+                    :green_from => 0,
+                    :green_to => 5,
+                    :height => 300,
+                    :max => 12,
+                    :min => 0,
+                    :minor_ticks => 6,
+                    :red_from => 9,
+                    :red_to => 12,
+                    :width => 600,
+                    :yellow_from => 5,
+                    :yellow_to => 9
+            }
+    )
+-%>
 
 <br />
 

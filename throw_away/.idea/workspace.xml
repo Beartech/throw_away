@@ -4,15 +4,19 @@
     <list default="true" id="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" name="Default" comment="" />
     <ignored path="throw_away.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/thrower.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366989796838" ignored="false" />
-    <file path="/garbage_can.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366945863718" ignored="false" />
+    <file path="/thrower.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367020531380" ignored="false" />
+    <file path="/garbage_can.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367024001560" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366989961345" ignored="false" />
     <file path="/routes.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366946126271" ignored="false" />
-    <file path="/garbage.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366948394630" ignored="false" />
+    <file path="/garbage.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367000521865" ignored="false" />
     <file path="/_form.html.erb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366988979798" ignored="false" />
     <file path="/show.html.erb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366950820622" ignored="false" />
-    <file path="/index.html.erb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366996406888" ignored="false" />
-    <file path="/application.html.erb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366997821758" ignored="false" />
+    <file path="/index.html.erb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367026150282" ignored="false" />
+    <file path="/application.html.erb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367003041058" ignored="false" />
+    <file path="/Gemfile" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1366999962947" ignored="false" />
+    <file path="/garbages_controller.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367000087525" ignored="false" />
+    <file path="/throwers_controller.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367002778150" ignored="false" />
+    <file path="/garbage_cans_controller.rb" changelist="01eb3c22-d48e-4c13-8d5f-dee7610f8acc" time="1367024131513" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +36,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="garbage.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/garbage.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/throwers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+            <state line="21" column="58" selection-start="717" selection-end="717" vertical-scroll-proportion="-13.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="37" selection-start="963" selection-end="963" vertical-scroll-proportion="0.5991678">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="garbage_cans_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/garbage_cans_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="34" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +66,7 @@
       <file leaf-file-name="garbage_can.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/garbage_can.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +75,7 @@
       <file leaf-file-name="garbages_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/garbages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="83" column="0" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,66 +84,7 @@
       <file leaf-file-name="thrower.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/thrower.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/garbages/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="-20.26923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/garbages/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1366944653000" expanded="true" signature="104:357" placeholder="..." />
-                <marker date="1366944653000" expanded="true" signature="230:346" placeholder="..." />
-                <marker date="1366944653000" expanded="true" signature="392:462" placeholder="..." />
-                <marker date="1366944653000" expanded="true" signature="486:515" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="16" selection-start="316" selection-end="316" vertical-scroll-proportion="0.35367545">
+            <state line="6" column="5" selection-start="130" selection-end="172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,14 +100,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/garbage_can.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/garbage.rb" />
         <option value="$PROJECT_DIR$/app/views/garbages/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/garbages/_form.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/garbage.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/garbages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/throwers_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/models/thrower.rb" />
-        <option value="$PROJECT_DIR$/app/views/garbages/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/throwers/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/garbages/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/garbage_cans_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/garbage_can.rb" />
+        <option value="$PROJECT_DIR$/app/views/garbage_cans/index.html.erb" />
       </list>
     </option>
   </component>
@@ -195,34 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="throw_away" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throw_away" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throw_away" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throw_away" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="throw_away" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,6 +411,13 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" />
@@ -686,81 +635,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/garbages/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="27" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/garbages/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="681" selection-end="681" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/garbages_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/throwers_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/garbage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/garbage_can.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/garbages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/thrower.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1366944653000" expanded="true" signature="104:357" placeholder="..." />
-            <marker date="1366944653000" expanded="true" signature="230:346" placeholder="..." />
-            <marker date="1366944653000" expanded="true" signature="392:462" placeholder="..." />
-            <marker date="1366944653000" expanded="true" signature="486:515" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -768,30 +642,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/garbages/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="0.28294036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/garbages/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/garbages/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="-20.26923">
+        <state line="23" column="43" selection-start="681" selection-end="681" vertical-scroll-proportion="0.55225986">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/garbages/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="34" selection-start="142" selection-end="142" vertical-scroll-proportion="-7.8461537">
+        <state line="14" column="58" selection-start="326" selection-end="326" vertical-scroll-proportion="0.31860778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/garbage.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09103079">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="316" selection-end="316" vertical-scroll-proportion="0.35367545">
+        <state line="11" column="1" selection-start="282" selection-end="282" vertical-scroll-proportion="0.25936198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/throwers_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="5" selection-start="1988" selection-end="2032" vertical-scroll-proportion="0.81793845">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/thrower.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="130" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/throwers/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="58" selection-start="717" selection-end="717" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/garbages/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="201" selection-end="201" vertical-scroll-proportion="0.1886269">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/garbages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="0" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/garbage_can.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/garbage_cans_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="34" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/garbage_cans/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="37" selection-start="963" selection-end="963" vertical-scroll-proportion="0.5991678">
           <folding />
         </state>
       </provider>

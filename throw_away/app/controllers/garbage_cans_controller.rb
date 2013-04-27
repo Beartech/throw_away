@@ -80,4 +80,8 @@ class GarbageCansController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def report
+    @garbage_cans = GarbageCan.all
+  end
 end
