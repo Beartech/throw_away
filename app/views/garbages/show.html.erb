@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Item:</b>
+  <%= @garbage.item %>
+</p>
+
+<p>
+  <b>Thrower:</b>
+  <%= @garbage.thrower.name %>
+</p>
+
+<p>
+  <b>Garbage can:</b>
+  <%= @garbage.garbage_can.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_garbage_path(@garbage) %> |
+<%= link_to 'Back', garbages_path %>

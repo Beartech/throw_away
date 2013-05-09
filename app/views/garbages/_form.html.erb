@@ -1,0 +1,29 @@
+<%= form_for(@garbage) do |f| %>
+  <% if @garbage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@garbage.errors.count, "error") %> prohibited this garbage from being saved:</h2>
+
+      <ul>
+      <% @garbage.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :item %><br />
+    <%= f.text_field :item %>
+  </div>
+  <div class="field">
+    <%= f.label :thrower %><br />
+    <%= f.collection_select(:thrower_id, Thrower.all, :id, :name) %>
+  </div>
+  <div class="field">
+    <%= f.label :garbage_can %><br />
+    <%= f.collection_select(:garbage_can_id, GarbageCan.all, :id, :name) %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
